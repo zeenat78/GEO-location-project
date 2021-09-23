@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEO location finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Encode+Sans+SC:wght@600&family=Lato&family=Source+Code+Pro:wght@900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <span><img class="logo"src='logo.png'>
+            <h1>GEO location</h1></span>
+            <h2> &mdash; welcome! if you want to find your location in this beautiful world...</h2>
+        </div>
+    </header>
+
+    <div class="content">
+
+    <section>
+        <div class="ip">
+            <h3>IP Address</h3>
+            <p><img class="gif"src=https://www.mnmuseumofthems.org/45th/AnimatedGlobe.gif>
+                An Internet Protocol address (IP address) is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. An IP address serves two main functions: host or network interface identification and location addressing.
+            </p>
+            <button id='btn'>MY IP ADDRESS</button>
+            <p id = "status"></p>
+        </div>
+    </section>
+    
+    <section>
+        <div class="location">
+            <h3>Latitude And longitude</h3>
+            <p class="latitude">What is latitude?</p>
+            <p class="para"><img class="gif"src=https://www.mnmuseumofthems.org/45th/AnimatedGlobe.gif>Latitude is a measurement on a globe or map of location north or south of the Equator. Technically, there are different kinds of latitude, which are geocentric, astronomical, and geographic (or geodetic), but there are only minor differences between them.</p>
+            <button id = "lat">Latitude</button><br/>
+            <p id="lati"></p>
+            <p class="longitude">What is longitude</p>
+            <p><img class="gif"src=https://www.mnmuseumofthems.org/45th/AnimatedGlobe.gif>Longitude is a measurement of location east or west of the prime meridian at Greenwich, London, England, the specially designated imaginary north-south line that passes through both geographic poles and Greenwich. Longitude is measured 180° both east and west of the prime meridian.</p>
+            <button id = "long">Latitude</button>
+            <p id="log"></p>
+        </div>
+    </section>
+
+
+    <footer>
+        <p class="warn">Warning:    If you don't allow to access your location , then you don't get your location longitude and latitude</p>
+    </footer>
+    
+    <div id='map'>
+    
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<script src='script.js'></script>
+
+</body>
+</html>
